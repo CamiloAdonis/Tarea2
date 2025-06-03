@@ -3,8 +3,11 @@ Este proyecto corresponde al segundo entregable del curso de Sistemas Distribuid
 
 ## Estructura del Proyecto
 ├── docker-compose.yml
+
 ├── data/
+
 │ └── clean_incidents.csv
+
 ├── filtering/
 │ ├── Dockerfile
 │ └── filter.py
