@@ -9,14 +9,23 @@ Este proyecto corresponde al segundo entregable del curso de Sistemas Distribuid
 │ └── clean_incidents.csv
 
 ├── filtering/
+
 │ ├── Dockerfile
+
 │ └── filter.py
+
 ├── pig_processing/
+
 │ ├── Dockerfile
+
 │ ├── incidentes.pig
+
 │ └── start.sh
+
 ├── scraper/
+
 │ ├── Dockerfile
+
 │ └── scraper.py
 
 
