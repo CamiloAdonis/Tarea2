@@ -37,17 +37,31 @@ Este proyecto corresponde al segundo entregable del curso de Sistemas Distribuid
 - Hadoop (como entorno de ejecución de Pig)
 - CSV (formato de almacenamiento intermedio)
 
+Para ejecutar el sistema, asegúrate de tener Docker y Docker Compose instalados en tu máquina. Luego, sigue los siguientes pasos:
+
+##Clona este repositorio:
+```sql
+git clone https://github.com/tu_usuario/tu_repositorio.git
+cd tu_repositorio
+```
 ## Instrucciones de Ejecución
 
 1. **Construir los contenedores**
+```sql
     docker compose build
-2. **Ejecutar el Scraper**
+```
+3. **Ejecutar el Scraper**
+ ```sql
    docker compose run scraper
-3. **Ejecutar el filtrado y homogeneización**
-   docker compose run filtering
-4. **Ejecutar el procesamiento distribuido con Apache Pig**
+```
+4. **Ejecutar el filtrado y homogeneización**
+```sql
+    docker compose run filtering
+   ```
+6. **Ejecutar el procesamiento distribuido con Apache Pig**
+```sql
    docker compose run pig_processing
-   
+   ```
 ## Descripción de los Módulos
 scraper/: Extrae los eventos de tráfico desde Waze (mapa en vivo).
 
